@@ -1,0 +1,41 @@
+# Gradle
+.gradle/
+build/
+
+# Minecraft / NeoForge Run Directories
+run/
+runs/
+logs/
+hs_err_pid*.log
+
+# Eclipse
+.apt_generated
+.classpath
+.eclipse
+.factorypath
+.project
+.settings/
+bin/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.run/
+
+# VS Code
+.vscode/
+
+# Generated / Repo caches
+**/src/generated/**/.cache/
+repo/
+
+# Keep Gradle Wrapper & specific subdirectories
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/**/build/
+!**/src/**/out/
+!**/src/**/bin/
+!**/src/**/run/
+!**/src/**/repo/

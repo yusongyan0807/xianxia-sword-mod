@@ -1,0 +1,4 @@
+src/generated/**/.cache/* text eol=lf
+src/generated/**/*.json text eol=lf
+gradlew text eol=lf
+*.bat text eol=crlf
